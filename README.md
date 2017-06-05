@@ -1,4 +1,3 @@
-# List-Links-in-URL
 # Project Description
 Command Line tool that will fetch all links refered in a given URL. It will enable to crawl the URLS inside the same domain, up to a given level, fetching as much externals URLs as it finds.
 
@@ -9,6 +8,7 @@ Command Line tool that will fetch all links refered in a given URL. It will enab
 -URL Specifies the URL to look for (mandatory)
 
 # Sample Execution
+```
 C:\>ListLinks.exe -url=http://autos.yahoo.com/ -max=1
 
 List Links version 1.0.0.0
@@ -35,3 +35,4 @@ http://shopping.yahoo.com/
 http://local.yahoo.com/
 http://downloads.yahoo.com/
 http://suggestions.yahoo.com/?prop=autos
+```
